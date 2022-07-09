@@ -1,0 +1,26 @@
+.modal {
+    box-shadow: #00000059 0px 5px 15px;
+    border: 1px solid var(-lynxWhite);
+    background-color: var(--lynxWhite);
+    border-radius: var(--border-sm);
+    width: fit-content;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.3rem;
+  }
+
+ .modal p{
+   font-size: 0.8rem;
+ }
+
+.dialog-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.dialog-btn .btn{
+  font-size: 0.95rem;
+  padding:0.4rem 0.9rem
+}

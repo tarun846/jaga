@@ -1,0 +1,4 @@
+.star-ratings .fa:hover{
+    cursor: pointer;
+    color:var(--main-color)
+}

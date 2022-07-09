@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("./alert/alert.css");
+@import url("./avatar/avatar.css");
+@import url("./badge/badge.css");
+@import url("./button/button.css");
+@import url("./card/card.css");
+@import url("./grid/grid.css");
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./lists/lists.css");
+@import url("./modal/modal.css");
+@import url("./navigation/navigation.css");
+@import url("./rating/rating.css");
+@import url("./slider/slider.css");
+@import url("./text-utilities/textUtilities.css");
+@import url("./toast/toast.css");
+
+:root{
+    --main-color: #0e9aeb;
+    --black: #1f1d1d;
+    --white: #ffffff;
+    --lynxWhite:#f8f8f8;
+    --grey: #262f44;
+    --darkBlue: #007bb5;
+    --green: #20aa20;
+    --darkRed: #9b1e1e;
+    --red: #ff0000;
+    --lightRed: #f3a09cf8;
+    --darkYellow:#a88c18;
+    --lightBlue: #89c3df;
+
+    --primary: #9333ea;
+    --secondary: #2563eb;
+    --success: #22c55e;
+    --danger: #dc2626;
+    --warning: #facc15;
+    --default: #414752;
+    --link: #06aed8;
+    --darkOrange: #E67A00;
+    --lightGrey: #c2c2c2;
+    --darkGreen: #008000;
+    
+    --max: 81.25rem;
+    font-family: 'Montserrat', sans-serif;
+
+    --border-full:999px;
+    --border-lg:15px;
+    --border-md:10px;
+    --border-sm:5px;
+
+    --font-light:300;
+    --font-regular:400;
+    --font-semiBold:600;
+    --font-bold:700
+}
+
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
